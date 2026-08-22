@@ -55,8 +55,12 @@
       толкание блоков, рубильники активируются блоком, дверь открывается
       всеми requiredSwitches, лимит ходов → рестарт, R — ручной рестарт.
       Доказано автотестом tests/mode-puzzle.test.js: 6/6 PASS.
-2. [ ] Tower Defense (08): WaveSpawner, TowerSlot/TowerPlacer, Waypoint-патруль, золото/lives
-3. [ ] Runner (09): автоскролл, спавн препятствий, speed-зоны, score
+2. [x] Tower Defense (08): WaveSpawner, TowerSlot/TowerPlacer, Waypoint-патруль, золото/lives ✅ 20:05
+      TD-режим в player.html: клик по слоту строит башню (arrow/cannon/ice,
+      цены из документации), волны спавнят врагов по waypoint-цепочке к базе,
+      снаряды с уроном/splash/slow, золото за убийства, жизни при прорыве,
+      GAME OVER/victory, Space — старт волны раньше. Автотест 7/7 PASS.
+3. [~] Runner (09): автоскролл, спавн препятствий, speed-зоны, score
 4. [ ] Shooter (02): формации, волны босса — телеграф
 5. [ ] Racing (05): CarPhysics, RacerAI, круги/чекпоинты
 - [ ] **Критерий:** каждая механика из списка подтверждена плейтестом
