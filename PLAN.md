@@ -62,7 +62,7 @@
       GAME OVER/victory, Space — старт волны раньше. Автотест 7/7 PASS.
 3. [x] Runner (09): автобег вправо, запрет отката, скор за дистанцию, спид-зоны (speedMultiplier), трек шире заявленного мира. Автотест 5/5 PASS ✅ 19:55
 4. [x] Shooter (02): формации со свуэем, стрельба героя (fireRate/bulletSpeed/bulletDamage), вражеские пули (shootRate), падающие паверапы, зачистка → след. уровень. Автотест ALL PASS ✅ 20:35
-5. [~] Racing (05): CarPhysics, RacerAI, круги/чекпоинты
+5. [x] Racing (05): CarPhysics (acceleration/topSpeed/turnSpeed), RacerAI по чекпоинтам со skill, круги через упорядоченные lapCheckpoint, бусты/ремонт, зоны slowdown/slippery, миникарта и POS. Автотест ALL PASS ✅ 21:50
 6. [ ] Реворки клонов (03 RPG-ключи, 06 свет/тьма, 07 кислород, 11 капитал, 12 стелс, 13 гравитация-поля) → Фаза 4b (завтра)
 - [~] **Критерий:** механики столпов подтверждены автотестами (puzzle/TD/runner/shooter ✅, racing в работе)
 
