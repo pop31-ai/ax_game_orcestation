@@ -50,10 +50,14 @@
 Цель: уникальные механики столпов реально работают в движке.
 
 Приоритет (по результатам Фаз 1–2):
-1. [ ] Puzzle (04): PushableBlock + Switch + Door + GridMovement
+1. [x] Puzzle (04): PushableBlock + Switch + Door + moveLimit ✅ 19:10
+      Сокобан-режим в player.html (по образцу шахмат): шаг по сетке,
+      толкание блоков, рубильники активируются блоком, дверь открывается
+      всеми requiredSwitches, лимит ходов → рестарт, R — ручной рестарт.
+      Доказано автотестом tests/mode-puzzle.test.js: 6/6 PASS.
 2. [ ] Tower Defense (08): WaveSpawner, TowerSlot/TowerPlacer, Waypoint-патруль, золото/lives
 3. [ ] Runner (09): автоскролл, спавн препятствий, speed-зоны, score
-4. [ ] Shooter (02): формации, волны босса, телеграф
+4. [ ] Shooter (02): формации, волны босса — телеграф
 5. [ ] Racing (05): CarPhysics, RacerAI, круги/чекпоинты
 - [ ] **Критерий:** каждая механика из списка подтверждена плейтестом
 
