@@ -25,4 +25,4 @@ _Прочти меня вслух ИИ: «продолжи по NEXT-SESSION» �
 
 ## Внешние зависимости
 - `gh auth login` — для Pages (Фаза A-хвост).
-- Установка opencode CLI — для Фазы S.
+- opencode CLI 1.18.22 установлен; фоновые прогоны: opencode run -m opencode/x-preview-f-free.

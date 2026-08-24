@@ -56,3 +56,8 @@ Pages (нужно `gh auth login` от заказчика).
 - РЕГРЕССИЯ: 18/18 игр PASS.
 - Параллельная сессия собрала APK: platforms/android/dist/LimeDrive.apk (Фаза A закрыта).
 - TBS-вариации: шашки ✅ ци-шах ✅ элиминтали ✅ зеркальный шах ✅ — копилка «Контратака» освоена.
+
+## 2026-08-25 00:50 — Фаза S: ИИ-будильник работает
+- opencode-ai 1.18.22 установлен глобально; opencode run -m opencode/x-preview-f-free — рабочий неинтерактивный режим.
+- Задача планировщика LimeDrive Orchestra: ежедневно 10:00, StartWhenAvailable, лимит 2ч.
+- Скрипт: tools/schedule-orchestrator.ps1 (register/remove). Смок-прогон подтвердил чтение STATUS.md.
