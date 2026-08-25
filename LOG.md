@@ -61,3 +61,9 @@ Pages (нужно `gh auth login` от заказчика).
 - opencode-ai 1.18.22 установлен глобально; opencode run -m opencode/x-preview-f-free — рабочий неинтерактивный режим.
 - Задача планировщика LimeDrive Orchestra: ежедневно 10:00, StartWhenAvailable, лимит 2ч.
 - Скрипт: tools/schedule-orchestrator.ps1 (register/remove). Смок-прогон подтвердил чтение STATUS.md.
+
+## 2026-08-25 01:20 — Глубокий QA: 18/18 чисто
+- tests/qa-deep.js: 15-секундные сеансы хаотичного ввода (клавиши+клики) на каждую игру.
+- Ноль pageerror/console.error по всем 18. Отчёт: reports/deep-qa.json.
+- PROMPT.md v1.3: секции TBS-вариаций (checkers/qi/elem/mirror) + детерминизм seed.
+- Движок вырос: 36 типов / 113 свойств (день 1: 24/37).
